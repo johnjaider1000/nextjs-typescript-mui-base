@@ -1,5 +1,5 @@
 import { styled } from "@mui/material";
-import { getMaxBreakPoint } from "../../../../Utils/StyledUtil";
+import { getMaxBreakPoint } from "../../../../utils/StyledUtil";
 import { resolvePath } from "../../Image";
 
 export type aling = "center" | "left" | "right";

@@ -3,7 +3,7 @@ import TextField from "@mui/material/TextField";
 import Autocomplete from "@mui/material/Autocomplete";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
-// import { findInText } from "./Utils";
+// import { findInText } from "./utils";
 import { createFilterOptions } from "@mui/material/Autocomplete";
 
 import WrapperStyles, {
