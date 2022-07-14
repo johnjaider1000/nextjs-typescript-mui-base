@@ -1,4 +1,4 @@
-export interface ColorList {
+export interface ColorScale {
   50?: string;
   100?: string;
   200?: string;

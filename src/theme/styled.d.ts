@@ -5,15 +5,15 @@ import {
   ThemeOptions,
 } from "@mui/material";
 
-import { ColorList } from "./types";
+import { ColorScale } from "./types";
 
 declare module "@mui/material/styles" {
   interface Palette {
-    customColor: ColorList;
+    customColor: ColorScale;
     custonButtonColor: SimplePaletteColorOptions;
   }
   interface PaletteOptions {
-    customColor: ColorList;
+    customColor: ColorScale;
     custonButtonColor: SimplePaletteColorOptions;
   }
   export function createTheme(options?: ThemeOptions, ...args: object[]): Theme;

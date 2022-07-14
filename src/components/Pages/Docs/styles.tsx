@@ -1,6 +1,6 @@
 import { styled } from "@mui/material";
 
-export default styled("div")`
+export default styled('div')`
   position: relative;
   display: flex;
   flex-direction: column;

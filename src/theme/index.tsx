@@ -1,6 +1,8 @@
 import { createTheme } from "@mui/material";
 
-// Create a theme instance.
+/* Create a theme instance.
+ * DOCS: https://mui.com/material-ui/customization/default-theme/#main-content
+ */
 const theme = createTheme({
   palette: {
     primary: {
