@@ -7,8 +7,9 @@ Download the example [or clone the repo](https://github.com/mui/material-ui):
 <!-- #default-branch-switch -->
 
 ```sh
-curl https://codeload.github.com/mui/material-ui/tar.gz/master | tar -xz --strip=2  material-ui-master/examples/nextjs-with-typescript
-cd nextjs-with-typescript
+curl -L -O https://github.com/johnjaider1000/nextjs-typescript-mui-base/archive/refs/heads/main.zip
+unzip -a main.zip
+cd nextjs-typescript-mui-base
 ```
 
 Install it and run:
