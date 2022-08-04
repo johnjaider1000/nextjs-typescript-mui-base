@@ -8,7 +8,7 @@ Download the example [or clone the repo](https://github.com/mui/material-ui):
 
 ```sh
 curl -L -O https://github.com/johnjaider1000/nextjs-typescript-mui-base/archive/refs/heads/main.zip
-unzip -a main.zip
+unzip -a main.zip && rm -rf main.zip
 cd nextjs-typescript-mui-base
 ```
 
