@@ -1,11 +1,9 @@
-const withPlugins = require("next-compose-plugins"),
-  isProd = process.env.NODE_ENV === "production",
+const isProd = process.env.NODE_ENV === "production",
   gitCommitHash = process.env.CODEBUILD_RESOLVED_SOURCE_VERSION,
   domainUrl = process.env.DOMAIN_URL;
 
 const nextConfig = {
   /* config options here */
-  target: "serverless",
   generateBuildId: async () => {
     return gitCommitHash;
   },
@@ -20,4 +18,4 @@ const nextConfig = {
   },
 };
 
-module.exports = withPlugins([], nextConfig);
+module.exports = nextConfig
